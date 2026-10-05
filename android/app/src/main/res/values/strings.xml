@@ -1,0 +1,4 @@
+
+<resources>
+    <string name="app_observer_description">Automate observes foreground app package names to run your app open and leave rules. It does not read screen content or perform gestures. Data stays on your device.</string>
+</resources>

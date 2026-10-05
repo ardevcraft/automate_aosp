@@ -1,0 +1,2 @@
+-keep class dev.orkitt.automate_aosp.PrivilegedService { *; }
+-keep class dev.orkitt.automate_aosp.IPrivilegedService$Stub { *; }
