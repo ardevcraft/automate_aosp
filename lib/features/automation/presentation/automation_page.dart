@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import '../../../shared/theme/app_theme.dart';
+import '../../../core/theme/app_theme.dart';
 import '../domain/automation_rule.dart';
 import 'automation_provider.dart';
 import 'rule_editor.dart';

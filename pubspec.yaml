@@ -16,5 +16,35 @@ dev_dependencies:
   flutter_lints: ^6.0.0
   json_serializable: ^6.11.1
   build_runner: ^2.10.0
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.8
 flutter:
   uses-material-design: true
+  assets:
+    - assets/autotask.svg
+    - assets/ic_background.png
+    - assets/ic_foreground.png
+    - assets/icon_app.png
+    - assets/splash.png
+# App Launcher Icons Configuration
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon_app.png"
+  # Adaptive Icon settings for modern Android
+  adaptive_icon_background: "assets/ic_background.png"
+  adaptive_icon_foreground: "assets/ic_foreground.png"
+  # Optional: For Web or macOS if needed
+  web:
+    generate: true
+    image_path: "assets/icon_app.png"
+
+# Native Splash Screen Configuration
+flutter_native_splash:
+  color: "#0C8AFE" # Change to your background color hex
+  image: "assets/splash.png"
+
+  # Optional Android 12+ configuration
+  android_12:
+    image: "assets/splash.png"
+    color: "#0C8AFE"
